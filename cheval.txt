@@ -1,0 +1,13 @@
+1. select * from nom_de_la_table
+
+2. SELECT * FROM chevauxdecurie.cheval WHERE nomRace = 'Arabian';
+
+3. SELECT * FROM chevauxdecurie.cheval WHERE nomRace like 'Arabian';
+
+4. SELECT poids Type, taille Type FROM chevauxdecurie.race WHERE nomRace ='Arabian';
+
+5. SELECT * FROM chevauxdecurie.personne Where fonctionPers like '%proprietaire%' where codeForm = 11;
+
+6. SELECT * FROM chevauxdecurie.personne Where numPersSup is null;
+
+7. SELECT * FROM chevauxdecurie.concours Where AnneeConcours =2019;
